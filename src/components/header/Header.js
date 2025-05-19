@@ -19,7 +19,7 @@ export function Header() {
     return (
         <header className='w-screen bg-[#221f1f] fixed z-10 top-0 h-[50px]'>
             <div className='container text-lg flex justify-between items-center text-white h-[50px] max-w-[1240px] m-auto px-2'>
-                <a href='/' >React Shop</a>
+                <a href='/' >VIP SHOP</a>
                 <Search />
                 <ul className='flex justify-between'>
                     <button className='block md:hidden mr-2 px-[8px]' onClick={toggleSearch}>
